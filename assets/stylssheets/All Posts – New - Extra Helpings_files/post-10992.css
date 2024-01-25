@@ -1,0 +1,22 @@
+.elementor-kit-10992{--e-global-color-primary:#002C9B;--e-global-color-secondary:#002684;--e-global-color-text:#7A7A7A;--e-global-color-accent:#002C9B;--e-global-color-2f8ec45f:#000000;--e-global-color-2e20d5e6:#FFFFFF;--e-global-color-190db2c1:#00A0DF;--e-global-color-1d281143:#E4E6EB;--e-global-typography-primary-font-family:"Georgia";--e-global-typography-primary-font-weight:normal;--e-global-typography-secondary-font-family:"Georgia";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Arial";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Arial";--e-global-typography-accent-font-weight:500;--e-global-typography-33119c1-font-family:"Cera Pro";color:#3C3C3C;text-decoration:none;}.elementor-kit-10992 a{color:var( --e-global-color-190db2c1 );font-family:"Georgia", serif;font-weight:normal;text-decoration:none;}.elementor-kit-10992 h1{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-kit-10992 h2{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-kit-10992 h3{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-kit-10992 h4{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-kit-10992 h5{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-kit-10992 h6{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), serif;font-weight:var( --e-global-typography-primary-font-weight );}.elementor-kit-10992 label{font-family:"Cera Pro", serif;}.elementor-kit-10992 input:not([type="button"]):not([type="submit"]),.elementor-kit-10992 textarea,.elementor-kit-10992 .elementor-field-textual{font-family:"Cera Pro", serif;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1000px;}.e-con{--container-max-width:1000px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-10992 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Cera Pro';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/cerapro-regular-webfont.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Cera Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/cerapro-medium-webfont.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Cera Pro';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/cerapro-bold-webfont.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */

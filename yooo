@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Meal Delivery Services - Fresh Meal Delivery Kits - Blue Apron
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./blueApron.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="sticky-header">
+        <div class="container">
+            <nav>
+                <a href="./index.html">
+                    <img src="./download.jpg" alt="blueapron">
+                </a>
+                <ul class="main">
+                    <li><a href="plans.html">PLANS</a></li>
+                    <li><a href="on_the_menu.html">ON THE MENU</a></li>
+                    <li><a href="market.html">MARKET</a></li>
+                    <li><a href="gift_cards.html">GIFT CARDS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+                <div class="auth-links">
+                    <a class="login" href="login.html">LOG IN</a>
+                    <button class="signup">SIGN UP</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <footer>
+        <div class='footer-container'>
+            <div class="footer-data">
+                <div>
+                    <ul class="pages">
+                        <li><a data-tracking-name="On The Menu" href="/on-the-menu">On The Menu</a></li>
+                        <li><a data-tracking-name="Pricing" href="/pricing">Pricing</a></li>
+                        <li><a data-tracking-name="Our Vision" href="/pages/vision">Our Vision</a></li>
+                        <li><a data-tracking-name="Shop" href="/market">Market</a></li>
+                        <li><a data-tracking-name="Gifts" href="/gifts">Gift Cards</a></li>
+                        <li><a data-tracking-name="Blog" href="https://blog.blueapron.com">Blog</a></li>
+                        <li><a data-tracking-name="Cookbook" href="/cookbook">Cookbook</a></li>
+                    </ul>
+                </div>
+                <ul class="options">
+                    <li><a data-tracking-name="Suppliers" href="/pages/meet-our-recent-partners">Suppliers</a></li>
+                    <li><a data-tracking-name="Affiliates"
+                            href="https://signup.cj.com/member/signup/publisher/?cid=5446852">Affiliates</a></li>
+                    <li><a data-tracking-name="Supply Chains Act" href="/pages/supply-chain-disclosure">Supply
+                            Chains Act</a></li>
+                    <li><a data-tracking-name="Food Safety" href="http://blog.blueapron.com/foodsafety/">Food
+                            Safety</a></li>
+                    <li><a data-tracking-name="Careers" href="/pages/our-team">Careers</a></li>
+                    <li><a data-tracking-name="Press" href="mailto:press@blueapron.com">Press</a></li>
+                    <li><a data-tracking-name="Our Team" href="/pages/our-team">Our Team</a></li>
+                </ul>
+                <ul class="level">
+                    <li><a data-tracking-name="Military &amp; Veterans"
+                            href="https://cook.blueapron.com/heroes/">Military
+                            &amp; Veterans</a></li>
+                    <li><a data-tracking-name="Students"
+                            href="https://cook.blueapron.com/heroes/?utm_content=Students110off">Students</a></li>
+                    <li><a data-tracking-name="Graduates"
+                            href="https://cook.blueapron.com/heroes/?utm_content=Graduates110off">Graduates</a></li>
+                    <li><a data-tracking-name="Teachers" href="https://cook.blueapron.com/heroes/">Teachers</a></li>
+                    <li><a data-tracking-name="Seniors (+55)" href="https://cook.blueapron.com/heroes/">Seniors
+                            (+55)</a></li>
+                    <li><a data-tracking-name="Medical Staff" href="https://cook.blueapron.com/heroes/">Medical
+                            Staff</a></li>
+                    <li><a data-tracking-name="First Responders" href="https://cook.blueapron.com/heroes/">First
+                            Responders</a></li>
+                </ul>
+                <div class="support">
+                    <span class=' mr-10'>Customer Support:</span>
+                    <ul class="contacts">
+                        <li><a data-tracking-name="Help Center &amp; FAQ" href="https://support.blueapron.com">Help
+                                Center &amp; FAQ</a></li>
+                        <li><a href="mailto:contact@blueapron.com">contact@blueapron.com</a></li>
+                        <li><a class="phone" data-tracking-name="Support Phone" href="tel:+16468914349">(646)
+                                891-4349</a></li>
+                    </ul>
+                </div>
+
+                <div class="store">
+                    <span>&copy; Blue Apron, LLC 2023</span>
+                    <ul class="footer-section">
+                        <li><a href="/pages/privacy#ccpa">Do Not Sell or Share My Info</a></li>
+                        <li><a href="/pages/privacy#california">Notice to California Residents</a></li>
+                        <li><a href="/pages/privacy#ccpa">Ad Preferences</a></li>
+                        <li><a data-tracking-name="Privacy" href="/pages/privacy">Privacy</a></li>
+                        <li><a data-tracking-name="Terms" href="/pages/terms">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>

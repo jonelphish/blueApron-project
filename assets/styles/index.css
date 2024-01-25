@@ -1,0 +1,520 @@
+@font-face {
+    font-family: 'cera-reg';
+    src: url(/assets/fonts/regular.woff);
+}
+
+@font-face {
+    font-family: 'cera-light';
+    src: url(/assets/fonts/FONTSPRINGDEMO-CeraRoundProLightRegular.woff);
+}
+
+@font-face {
+    font-family: 'cera-bold';
+    src: url(/assets/fonts/Bold.woff);
+}
+
+@font-face {
+    font-family: 'cera-med';
+    src: url(/assets/fonts/medium.woff);
+}
+
+@font-face {
+    font-family: 'chronicle';
+    src: url(/assets/fonts/chronicle-deck.woff);
+}
+
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* padding: 0 4.5em; */
+    font-family: 'cera-reg';
+    overflow-x: hidden;
+}
+
+.central {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+main {
+    padding-top: 11em;
+}
+
+
+
+.right,
+.left {
+    display: flex;
+    color: #43608c;
+    font-size: 14px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    align-items: center;
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+    color: #43608c;
+    cursor: pointer;
+
+}
+
+hr {
+    width: 100em;
+    transform: translateX(-5em);
+    border: none;
+    border-top: 1px solid #ebebeb;
+    position: fixed;
+}
+
+nav button {
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-family: 'cera-reg';
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    background: #f26c29;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: #f26c29d1;
+
+}
+
+.mark {
+    color: #0f346c;
+}
+
+nav i {
+    position: relative;
+}
+
+nav i p {
+    position: absolute;
+    font-style: normal;
+    right: -8px;
+    bottom: 1px;
+    border: 2px solid white;
+    background: #00a0df;
+    color: white;
+    padding: .2em .4em;
+    border-radius: 50%;
+    font-size: 11px;
+    height: fit-content;
+}
+
+.intro-header {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    /* background: red; */
+    width: fit-content;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.intro-header h2 {
+    font-size: 12px;
+}
+
+.intro-header h2 span:first-child {
+    color: #0f346c;
+    cursor: pointer;
+
+}
+
+.intro-header h2 span:first-child:hover {
+    text-decoration: underline;
+}
+
+.intro-header h2 span {
+    color: #b1b5bd;
+}
+
+.intro-header p {
+    font-size: 30px;
+    color: #002c9b;
+    font-family: 'chronicle';
+}
+
+.intro-header .line {
+    height: 4px;
+    border-radius: 10px;
+    width: 1.5em;
+    background: #00a0df;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure {
+    padding: .6em;
+    height: 100%;
+}
+
+.images-select {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em 0;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    gap: .3em 0;
+    margin-top: 1em;
+    color: #303236;
+}
+
+.price {
+    margin: 1em 0;
+    color: #303236;
+
+}
+
+.back-to-top p {
+
+    font-size: 12px;
+    color: #6a6d75;
+
+}
+
+.back-to-top img {
+    width: 50%;
+}
+
+/*.back-to-top{
+    position: sticky;
+    text-decoration: none;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+figcaption h3 a:hover {
+    text-decoration: underline;
+}
+
+figcaption h3 a {
+    font-size: 16px;
+    color: #303236;
+    text-decoration: none;
+}
+
+figcaption>p {
+    font-size: 15px;
+    color: #6a6d75;
+}
+
+.shop-cat img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shop-cat {
+    width: 50%;
+    display: flex;
+}
+
+.shop-cat figure {
+    height: 24em;
+    padding: .8em;
+}
+
+.category {
+    margin: 6em 0;
+    margin-bottom: 9em;
+}
+
+.category h2 {
+    margin: 0;
+    padding: .6em;
+    font-size: 22px;
+    font-family: 'cera-med';
+}
+
+.shop-cat figure figcaption p {
+    font-family: 'cera-med';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shop-cat figure figcaption p a {
+    text-decoration: none;
+    color: #303236;
+}
+
+.shop-cat figure figcaption p a:hover {
+    text-decoration: underline;
+}
+
+.top-f {
+    background: #fafbfc;
+    border-top: 2px solid lightgray;
+
+}
+
+footer .top-section {
+    display: flex;
+    padding: 2.5em;
+    /* background: red; */
+    font-size: 14.4px;
+    font-weight: 500;
+    gap: 0 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'cera-med';
+}
+
+footer .follow-us {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em 0;
+    padding: 0 5.5em;
+    padding-left: 0;
+}
+
+.follow-us p:hover,
+.discover p:first-child:hover,
+.blog p:hover {
+    text-decoration: underline;
+}
+
+.follow-us p,
+.discover p:first-child,
+.blog p {
+    cursor: pointer;
+}
+
+footer .follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid lightgray;
+}
+
+footer .follow-us ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0 2.2em;
+    width: 100%;
+}
+
+.discover {
+    /* padding: 1em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em 0;
+    padding: 0 4em;
+    border-right: 1px solid lightgray;
+    /* background: green; */
+}
+
+.discover input::placeholder {
+    color: #b1b5bf;
+    font-family: 'cera-reg';
+}
+
+.discover input {
+    padding: .6em;
+    padding-left: 1em;
+    width: 18em;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: 1px solid lightgray;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.input button {
+    padding: .8em 1.1em;
+    background: #245091;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    font-family: inherit;
+    border-radius: 0 5px 5px 0;
+}
+
+.input {
+    display: flex;
+
+}
+
+.Sign {
+    font-size: 14px;
+    color: #6a6d75;
+}
+
+.blog p:first-child {
+    text-align: center;
+}
+
+.image-footer {
+    display: flex;
+    gap: 0 1em;
+}
+
+.image-footer img {
+    width: 30%;
+    border-radius: 7px;
+}
+
+.image-footer p {
+    font-size: 14px;
+    color: #303236;
+    font-family: 'cera-reg';
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap: 1em 0;
+    padding: 0 4em;
+
+}
+
+.footer-bottom-section {
+    padding: 3em 6.2em;
+    background: #0f346c;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em 0;
+    font-size: 14px;
+}
+
+.left-section p:last-child span a:hover {
+    text-decoration: underline;
+}
+
+.left-section p:last-child span a {
+    color: #A1BCE6;
+    text-decoration: none;
+}
+
+.left-section p:last-child {
+    margin: 4em 0 1.5em 0;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 0 4em;
+}
+
+.footer-bottom-section ul h4 {
+    font-weight: normal;
+    color: white;
+
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em 0;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #A1BCE6;
+
+}
+
+.right-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: .8em 0;
+    font-size: 14px;
+    list-style: none;
+    text-align: right;
+}
+
+.right-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #A1BCE6;
+    cursor: pointer;
+}
+
+.right-section ul i:last-child img {
+    width: 71%;
+}
+
+.right-section i:first-child {
+    margin-top: .5em;
+}
+
+.right-section i {
+    cursor: pointer;
+}
+
+.central {
+    /* background: red; */
+    padding-bottom: .05em;
+}
+
+.sticky-tag {
+    position: sticky;
+    top: 20%;
+    background: white;
+    padding: 1em 0;
+    font-size: 14px;
+    width: 112.5%;
+    transform: translateX(-5.4em);
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.02);
+    border-bottom: 1px solid #e4e6eb;
+}
+
+.tag {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.green {
+    color: #1eb392;
+    font-family: 'cera-med';
+}

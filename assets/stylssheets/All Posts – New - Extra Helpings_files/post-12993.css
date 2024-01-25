@@ -1,0 +1,41 @@
+.elementor-12993 .elementor-element.elementor-element-6ffa752e img{width:100%;height:300px;object-fit:cover;object-position:center center;}.elementor-12993 .elementor-element.elementor-element-6928dd9{text-align:center;}.elementor-12993 .elementor-element.elementor-element-6928dd9 .elementor-heading-title{font-family:"Chronicle Deck", serif;line-height:1.4em;}.elementor-12993 .elementor-element.elementor-element-6928dd9 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-12993 .elementor-element.elementor-element-72ce6ac0 .elementor-widget-container{font-family:"Cera Pro", serif;font-size:15px;line-height:1.6em;letter-spacing:-0.3px;}/* Start custom CSS for theme-post-title, class: .elementor-element-6928dd9 */.post-header{font-family:"Georgia", serif;font-weight: normal;text-decoration: none;line-height: 1.4em;color: rgb(0, 44, 155);
+}/* End custom CSS */
+/* Start custom CSS for theme-post-excerpt, class: .elementor-element-72ce6ac0 */.elementor-12993 .elementor-element.elementor-element-72ce6ac0{text-align: center ;}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Chronicle Deck';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/ChronicleDeck-Roman_Web.woff2') format('woff2'),
+		url('https://blog.blueapron.com/wp-content/uploads/2019/11/0BA92CA046003CC5C.woff') format('woff');
+}
+@font-face {
+	font-family: 'Chronicle Deck';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/ChronicleDeck-Bold_Web.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Cera Pro';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/cerapro-regular-webfont.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Cera Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/cerapro-medium-webfont.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Cera Pro';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/cerapro-bold-webfont.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */

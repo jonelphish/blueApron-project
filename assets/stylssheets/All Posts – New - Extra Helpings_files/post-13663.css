@@ -1,0 +1,16 @@
+.elementor-13663 .elementor-element.elementor-element-d1b8397 > .elementor-container{max-width:500px;}.elementor-13663 .elementor-element.elementor-element-4192451 > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-13663 .elementor-element.elementor-element-4192451{width:100%;max-width:100%;align-self:flex-start;}.elementor-13663 .elementor-element.elementor-element-0d6c5ea .elementor-heading-title{font-family:"Chronicle Deck", serif;font-size:24px;font-weight:700;text-decoration:none;line-height:1.4em;}.elementor-13663 .elementor-element.elementor-element-0d6c5ea > .elementor-widget-container{margin:24px 0px 0px 0px;}.elementor-13663 .elementor-element.elementor-element-0d6c5ea{width:100%;max-width:100%;}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Chronicle Deck';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/ChronicleDeck-Roman_Web.woff2') format('woff2'),
+		url('https://blog.blueapron.com/wp-content/uploads/2019/11/0BA92CA046003CC5C.woff') format('woff');
+}
+@font-face {
+	font-family: 'Chronicle Deck';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://blog.blueapron.com/wp-content/uploads/2019/11/ChronicleDeck-Bold_Web.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
